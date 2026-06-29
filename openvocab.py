@@ -8,7 +8,7 @@ model.set_classes(["potted plant", "green tree", "balcony", "window", "person", 
 print("model classes are now:", model.names)
 
 # run on the same bus image
-r = model("https://ultralytics.com/images/bus.jpg", conf=0.01)
+r = model("https://ultralytics.com/images/bus.jpg", conf=0.1)
 
 # save an annotated copy so you can see the boxes
 r[0].save("openvocab_result.jpg")
