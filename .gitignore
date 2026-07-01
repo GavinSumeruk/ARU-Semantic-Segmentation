@@ -5,4 +5,5 @@ runs/
 *.onnx
 *.engine
 *.jpg
-*.pdf
+*.pdf__pycache__/
+__pycache__/
