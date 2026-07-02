@@ -1,0 +1,26 @@
+path: /home/user/ARU-Semantic-Segmentation/data/rellis
+train: images/train
+val:   images/val
+test:  images/test
+
+nc: 19
+names:
+  0: grass
+  1: tree
+  2: bush
+  3: dirt
+  4: mud
+  5: concrete
+  6: sky
+  7: water
+  8: puddle
+  9: pole
+  10: fence
+  11: barrier
+  12: log
+  13: vehicle
+  14: building
+  15: person
+  16: asphalt
+  17: rubble
+  18: void
